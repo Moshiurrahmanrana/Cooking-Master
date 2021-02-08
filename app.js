@@ -17,13 +17,14 @@ searchBtn.addEventListener('click', () => {
           let meal = response[i];
           content += `
           <div class="col-3 py-3"> <div class="card">
-          <a href="details.html?id=${meal.idMeal}">
+          <a class="foodMenu" href="details.html?id=${meal.idMeal}">
             <img class="card-img-top clickable" src="${meal.strMealThumb}" alt="Card image cap">
-          </a>
-          
-          <div class="card-body">
+            <div class="card-body">
             <h5 class="card-title">${meal.strCategory}</h5>
           </div>
+          </a>
+          
+          
         </div></div>
           `;
         }

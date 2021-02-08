@@ -1,11 +1,18 @@
 #color{
+    height: 100vh;
     background-color: yellow;
 }
 #upper{
     background-color: rgb(148, 49, 62);
 }
 .details{
-    padding: 150px;
-    margin-left: 300px;
+    padding-top: 200px;
+    padding-left:450px;
     background-color: yellow;
+}
+#wrapper{
+    background-color: yellow;
+}
+.foodMenu{
+    text-decoration: none;
 }

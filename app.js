@@ -29,7 +29,7 @@ searchBtn.addEventListener('click', () => {
       } else {
         const element = document.getElementById('alert');
         element.classList.remove('d-none');
-        element.classList.add('d-block');
+        element.classList.add('d-block'); 
       }
     });
 });

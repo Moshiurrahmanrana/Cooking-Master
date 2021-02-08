@@ -19,12 +19,8 @@ searchBtn.addEventListener('click', () => {
           <div class="col-3 py-3"> <div class="card">
           <a class="foodMenu" href="details.html?id=${meal.idMeal}">
             <img class="card-img-top clickable" src="${meal.strMealThumb}" alt="Card image cap">
-            <div class="card-body">
-            <h5 class="card-title">${meal.strCategory}</h5>
-          </div>
-          </a>
-          
-          
+             <h5 class="card-title">${meal.strCategory}</h5>
+           </a>   
         </div></div>
           `;
         }
